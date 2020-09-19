@@ -7,7 +7,8 @@ body {
 }
 
 header {
-  background-color: #333333;
+  background-color: #333333c5;
+  padding: 20px;
 }
 
 h1 {
@@ -20,14 +21,18 @@ h2 {
 }
 
 .container {
-  width: 1024px;
+  width: auto;
   margin: 0 auto;
+  padding-block: 5px;
 }
-
+/* centered main bio for style
+ */
 #main_bio {
   float: left;
-  width: 70%;
+  width: 95%;
   line-height: 1.5;
+  padding: 2.5%;
+  margin: auto 0%;
 }
 
 #bio-image {
@@ -36,11 +41,14 @@ h2 {
   margin-right: 20px;
   border-radius: 10px;
 }
-
+/* moved contact info to below the bio for readability
+ */
 #contactInfo {
   float: left;
-  width: 30%;
+  width: 95%;
   line-height: 1.5;
+  padding: 2.5%;
+  margin: Auto 0%;
 }
 
 a {
